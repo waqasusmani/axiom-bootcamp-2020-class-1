@@ -15,4 +15,4 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Run surge
-        run: surge ./ axiom-bootcamp-2020-class-1.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+        run: surge ./ axiom-bootcamp-2020-class-1.surge.sh --token ${{ secrets.WAQAS_SURGE_TOKEN }}
